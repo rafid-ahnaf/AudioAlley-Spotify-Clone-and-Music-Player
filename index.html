@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Alley | Spotify Clone and Music Player</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <img class="cross" src="svgs/cross.svg" alt="" />
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo">
+            <img class="invert" src="svgs/logo.svg" alt="" class="src" />
+          </div>
+          <ul>
+            <li><img class="invert" src="svgs/home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="svgs/search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="header flex align-center">
+            <img class="invert" src="svgs/library.svg" alt="library" />
+            <p>Your Library</p>
+          </div>
+          <div class="songList">
+            <ul></ul>
+          </div>
+
+          <div class="footer">
+            <a href="https://www.spotify.com/bd-en/legal/cookies-policy/"
+              >Cookies</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="right bg-grey rounded">
+        <div class="rheader">
+          <div class="nav">
+            <div class="hamburger">
+              <img src="svgs/hamburger.svg" alt="" />
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none">
+              <path
+                d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none">
+              <path
+                d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                stroke="#ffffff"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </div>
+
+          <div class="buttons">
+            <button class="sign">Sign up</button>
+            <button class="log">Log in</button>
+          </div>
+        </div>
+
+        <div class="playlist">
+          <h1>Spotify Playlists</h1>
+          <div class="cardContainer flex" id="cardContainer">
+
+              
+        </div>
+
+        <div class="playbar">
+          <div class="songinfoNtime">
+            <div class="songInfo"></div>
+            <div class="timeNvol">
+              <div class="songDuration"></div>
+              <div class="volume">
+                <img  src="svgs/volume_svgs/maxvol.svg" alt="" />
+                <input type="range" name="volume" id="volumeControl" />
+              </div>
+            </div>
+          </div>
+          <div class="seekbar-circle">
+            <div class="seek"></div>
+            <div class="circle"></div>
+          </div>
+          <div class="songbtns">
+            <img id="previous" src="svgs/playbar_svgs/prevSong.svg" alt="" />
+            <img id="play" src="svgs/playbar_svgs/play.svg" alt="" />
+            <img id="next" src="svgs/playbar_svgs/nextSong.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

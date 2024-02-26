@@ -1,6 +1,6 @@
 # AudioAlley-Spotify-Clone-and-Music-Player
 
-Welcome to Audio Alley - Your Music Streaming Solution!
+Welcome to **Audio Alley** - Your Music Streaming Solution!
 
 Audio Alley is a user-friendly music player reminiscent of Spotify, crafted using HTML, CSS, and JavaScript. It provides seamless access to your favorite tunes without the need for complex backend infrastructure.
 
@@ -14,4 +14,4 @@ Backend-Free: Audio Alley operates efficiently without the necessity of backend 
 
 Explore the convenience and elegance of Audio Alley today, and elevate your music-listening experience effortlessly!
 
-Checkout the website at: audioalley.freewebhostmost.com
+**Checkout the website at:** [Audio Alley](audioalley.freewebhostmost.com)
